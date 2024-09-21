@@ -1,0 +1,26 @@
+@import './variables.scss';
+
+@mixin viewport($media) {
+  @if $media == big-mobile {
+    @media screen and (min-width: $small) {
+      @content;
+    }
+  }
+  @if $media == tablet {
+    @media screen and (min-width: $medium) {
+      @content;
+    }
+  } @else if $media == desktop {
+    @media screen and (min-width: $large) {
+      @content;
+    }
+  } @else if $media == desktop-large {
+    @media screen and (min-width: $extra-large) {
+      @content;
+    }
+  } @else if $media == desktop-extra-large {
+    @media screen and (min-width: $extra-extra-large) {
+      @content;
+    }
+  }
+}

@@ -1,0 +1,27 @@
+//Breakpoints
+$small: 481px;
+$sm: $small;
+$medium: 768px;
+$md: $medium;
+$large: 992px;
+$lg: $large;
+$extra-large: 1200px;
+$xl: $extra-large;
+$extra-extra-large: 1400px;
+$xxl: $extra-extra-large;
+
+
+//Colors
+$black-color: #333333;
+$black-light-color: #CCCCCC;
+$white-color: #F2F2F2;
+$red-color: #f44336;
+$green-color: #28A745;
+$blue-color: #007BFF;
+$blue-light-color: #61dafb;
+$grey-color: #6C757D;
+
+$header-background-color: $grey-color;
+$textfield-background-color: $white-color;
+
+$transition-duration: 0.3s;

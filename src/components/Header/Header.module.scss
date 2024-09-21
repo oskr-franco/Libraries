@@ -1,0 +1,13 @@
+@import 'mixins';
+
+.header {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $header-background-color;
+
+  @include viewport(desktop) {
+    height: 150px;
+  }
+}
